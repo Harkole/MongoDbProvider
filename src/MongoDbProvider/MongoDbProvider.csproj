@@ -2,6 +2,11 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
+    <PackageId>MongoDbProvider</PackageId>
+    <Authors>Will Blackburn</Authors>
+    <Description>Library for handling Collections and connections to a MongoDb server</Description>
+    <IsPackagable>true</IsPackagable>
+    <PackageReleaseNotes>Initial build</PackageReleaseNotes>
   </PropertyGroup>
 
   <ItemGroup>
