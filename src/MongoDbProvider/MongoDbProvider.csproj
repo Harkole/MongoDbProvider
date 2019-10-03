@@ -6,6 +6,7 @@
 
   <ItemGroup>
     <PackageReference Include="MongoDb.Driver" Version="2.9.2" />
+    <PackageReference Include="PluralizeService.Core" Version="1.0.1.2" />
   </ItemGroup>
 
 </Project>
