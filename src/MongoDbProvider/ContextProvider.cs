@@ -2,7 +2,7 @@ using MongoDB.Driver;
 using MongoDbProvider.Interfaces;
 using MongoDbProvider.Modules;
 
-namespace MongoDbProvider.Library
+namespace MongoDbProvider
 {
     public class ContextProvider<T>
     {
