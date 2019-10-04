@@ -23,7 +23,7 @@ namespace MongoDbProvider
             Context = MongoProvider
                 .CreateMongoClient(options.ConnectionString)
                 .GetDatabase(options.DatabaseName)
-                .GetCollection<T>(Pluralizer.Pluralize(nameof(T)));
+                .GetCollection<T>(Pluralizer.Pluralize(typeof(T).Name));
         }
     }
 }
