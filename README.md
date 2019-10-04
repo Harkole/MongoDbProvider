@@ -16,7 +16,7 @@ Wrapper for the C# MongoDB Driver to provide easier methods of generating a cont
     
     // Ctor (IDatabaseOptions options)
     {
-        collection = new ContextProvider<TestModel>(options).Context;
+        collection = new ContextProvider<Model>(options).Context;
     }
 
     // ...
